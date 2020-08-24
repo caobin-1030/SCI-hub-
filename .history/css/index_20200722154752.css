@@ -1,0 +1,18 @@
+@import 'normalize.css';
+
+
+.header {
+  width: 100%;
+  background: #1d1364;
+}
+.headerContent {
+  width: 1200px;
+  margin:0 auto;
+  margin-top: 100px;
+}
+.headerContent>p {
+  font-family: Source Han Sans CN;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 16px;
+}

@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+html {
+  font-family: Source Han Sans CN;
+}
+.header {
+  width: 100%;
+  background: #1d1364;
+  overflow: hidden;
+}
+.headerContent {
+  width: 1200px;
+  margin:0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.headerContent>h1 {
+  color: #fff;
+  font-size: 55px;
+}
+.headerContent>p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.container {
+  width: 1200px;
+  margin:80px auto;
+  text-align: center;
+}

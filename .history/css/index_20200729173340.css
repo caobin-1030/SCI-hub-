@@ -1,0 +1,127 @@
+@import 'normalize.css';
+
+html {
+  font-family: Source Han Sans CN;
+}
+.header {
+  width: 100%;
+  background: #1d1364;
+  overflow: hidden;
+}
+.headerContent {
+  width: 1200px;
+  margin:80px auto;
+  text-align: center;
+}
+.headerContent>h1 {
+  color: #fff;
+  font-size: 55px;
+}
+.headerContent>p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.container {
+  width: 1200px;
+  margin:80px auto;
+  text-align: center;
+}
+.container>p:nth-child(1) {
+  text-align: center;
+  margin-bottom: 20px;
+  color: red;
+  font-size: 16px;
+}
+.container>p:nth-child(2) {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.search {
+  width: 950px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search>input {
+  width: 735px;
+  padding: 15px 20px;
+  border-radius: 35px 0 0 35px;
+  padding-left: 50px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 3px 29rpx rgba(59, 74, 116, 0.135473);
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+.search>button {
+  color: #42e8df;
+  font-size: 18px;
+  font-weight: 600;
+  background: #1d1364;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  min-width: 185px;
+  border-radius: 0 35px 35px 0;
+  border-color: #1d1364;
+}
+.container>p:nth-child(4) {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #777;
+}
+.footer {
+  width: 100%;
+  border-top:10px solid #00C1DE;
+  padding: 30px 0;
+  background: #373D41;
+  color: #FFF;
+}
+.footerContent {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footerContent > div {
+  display: flex;
+  flex-direction: row;
+}
+#searchT .table {
+  margin: 0 auto;
+  width: 1100px;
+}
+#searchT .table tbody tr td {
+  padding: 20px 45px;
+  border: 1px solid #e5e5e5;
+  color: var(--para-color);
+  font-size: 16px;
+  text-align: left;
+}
+table {
+  border-spacing: 0px;
+}
+.btn-group-sm>.btn, .btn-sm {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+}
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+a, a:focus, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.table>tbody>tr>td:nth-child(1){
+  width: 200px !important;
+}
